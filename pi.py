@@ -3,5 +3,11 @@ text = """
     quantum mechanics. All of thy geometry, Herr Planck, is fairly hard.
 """
 
-# TODO
 
+# TODO
+text = text.replace(",", "")
+text = text.replace(".", "")
+word = text.split()
+word
+word_length = list(map(len, word))
+word_length
