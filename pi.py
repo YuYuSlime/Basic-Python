@@ -8,6 +8,6 @@ text = """
 text = text.replace(",", "")
 text = text.replace(".", "")
 word = text.split()
-word
+print(word)
 word_length = list(map(len, word))
 word_length
